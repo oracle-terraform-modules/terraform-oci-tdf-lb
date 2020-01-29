@@ -1,0 +1,20 @@
+# Credit to: https://gist.github.com/octocat/9257657 for the starting list below
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Terraform-specific
+.terraform
+terraform.tfstate
+*.tfstate*
+terraform.tfvars
+**/certs/*.csr
+**/certs/*.crt
+**/certs/*.key
