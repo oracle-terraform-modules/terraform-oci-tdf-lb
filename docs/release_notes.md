@@ -13,3 +13,6 @@
 - Added proper file header to TF files.
 - Reviewed (and updated as-needed) READMEs
 - Updated module location to be a Git repo
+
+## 2020-1-25 (version 0.9.2)
+- Format README on examples
