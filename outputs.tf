@@ -55,7 +55,7 @@ output "backends" {
   description = "Backends created/managed."
   value       = {
     for x in oci_load_balancer_backend.this:
-      "${x.ip_address}_${x.port}" => x
+      "${x.backendset_name}_${x.ip_address}_${x.port}" => x
   }
 }
 
